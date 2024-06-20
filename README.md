@@ -1,4 +1,4 @@
-# Api BackEnd Proyecto Final CoderHouse
+# Api backEnd Ecommerce
 
 ## Ejecutar localmente
 
@@ -8,11 +8,9 @@
 
 - Para seleccionar un puerto a eleccion nodemon server.js -p 8080 (por defecto toma el puerto 8080)
 
-- Para ejecutar en modo CLUSTER server.js -m CLUSTER
-
 - Para pasarle la URL de la base de datos en mongo server.js -b URL
 
--ACLARACION: TODAS LAS RUTAS EXCEPTO LA /CHAT DEBEN SER TESTEADAS EN POSTMAN O SIMILAR. 
+-ACLARACION: TODAS LAS RUTAS DEBEN SER TESTEADAS EN POSTMAN O SIMILAR. 
 
 
 # RUTAS
@@ -36,10 +34,6 @@
    } 
    ```
 - `http://localhost:8080/api/carrito/:id/products/:id_prod`: Permite eliminar un producto dado su ID del carrito ID(POST)
-
-## messages Route
-
-- `http://localhost:8080/api/chat/`: Permite utilizar el chat de socke (esta ruta renderiza un archivo .hbs)(GET)
 
 ## Order Rute
 
@@ -102,7 +96,7 @@
     } 
    ```
 
-- `http://localhost:8080/api/session/register`: Permite cerrar la sesion del usuario. Por defecto la sesion dura 5 minutos.(GET)
+- `http://localhost:8080/api/session/logout`: Permite cerrar la sesion del usuario. Por defecto la sesion dura 5 minutos.(GET)
 
 ## InfoAccount Rutes
 
