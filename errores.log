@@ -1,0 +1,10 @@
+[2024-06-20T15:22:19.216] [ERROR] custom - {
+  error: ReferenceError: UserDates is not defined
+      at getInfoAccount (file:///C:/Users/lauta/OneDrive/Escritorio/Proyecto-WEB2/src/controllers/infoAccount/infoAccount-controller.js:15:39)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[2024-06-20T15:22:47.457] [ERROR] custom - {
+  error: ReferenceError: UserDates is not defined
+      at getInfoAccount (file:///C:/Users/lauta/OneDrive/Escritorio/Proyecto-WEB2/src/controllers/infoAccount/infoAccount-controller.js:15:39)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
